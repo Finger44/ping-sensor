@@ -1,7 +1,7 @@
 /*
 * created by Nick Meunier
 *  Ultrasonic sensor 
-* 2013
+* 2014
 */
 
 int trigPin = 5;    //Trig pin connect to digital 5
