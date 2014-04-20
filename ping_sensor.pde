@@ -1,6 +1,5 @@
 /*
-
-* created by Rui Santos, http://randomnerdtutorials.wordpress.com
+* created by Nick Meunier
 *  Ultrasonic sensor 
 * 2013
 */
@@ -24,8 +23,10 @@ void setup() {
 
 void loop() {
 // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
-  delayMicroseconds(1000);
+  delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
    
