@@ -4,8 +4,8 @@
 * 2013
 */
 
-int trigPin = 5;    //Trig 
-int echoPin = 4;   //Echo 
+int trigPin = 5;    //Trig pin connect to digital 5
+int echoPin = 4;   //Echo pin connect to digital 4
 
 
 
